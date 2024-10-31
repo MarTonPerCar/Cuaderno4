@@ -1,0 +1,13 @@
+train: E:\Escritorio\Universidad\5.- Quinto Año\Primer Cuatrimestre\Vision de los Computadores\Practica\Practica 4\Entregable\Dataset\TrueDataset\train\images
+val: E:\Escritorio\Universidad\5.- Quinto Año\Primer Cuatrimestre\Vision de los Computadores\Practica\Practica 4\Entregable\Dataset\TrueDataset\valid\images
+test: E:\Escritorio\Universidad\5.- Quinto Año\Primer Cuatrimestre\Vision de los Computadores\Practica\Practica 4\Entregable\Dataset\TrueDataset\test\images
+
+nc: 4  # Número total de clases (matrícula, persona, coche, bicicleta)
+names: ['License_Plate', 'person', 'car', 'bicycle']
+
+roboflow:
+  workspace: roboflow-universe-projects
+  project: license-plate-recognition-rxg4e
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/6
