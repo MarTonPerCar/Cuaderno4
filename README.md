@@ -318,4 +318,4 @@ def extract_text_from_plate(plate_frame):
     return plate_text
 ```
 
-Como ultimo detalle, el apartado de guardar en video y crear el csv estará comentado para no consuma tanto hardware
+Como ultimo detalle, el apartado de guardar en video y crear el csv estará comentado para que no consuma tanto hardware
